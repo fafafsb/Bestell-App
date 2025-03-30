@@ -1,6 +1,7 @@
 .basket {
     position: fixed;
     right: 0;
+    top: 88px;
     display: flex;
     flex-direction: column;
     background-color: #f8f8f8;
