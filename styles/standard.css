@@ -35,11 +35,11 @@ main {
 }
 
 ::-webkit-scrollbar-track {
-  background: orange;
+  background: rgb(219, 219, 219);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: black;
+  background: rgba(240, 132, 8, 0.788);
 }
 
 ::-webkit-scrollbar-thumb:hover {

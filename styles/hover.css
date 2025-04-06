@@ -31,8 +31,8 @@
   }
 
   .basket-buy-position:hover {
-    background-color: orange;
-    transition: 0.3s;
+    box-shadow: inset 0px 0px 5px rgb(0, 0, 0);
+    transition: 0.5s;
     cursor: pointer;
   }
 

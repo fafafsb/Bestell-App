@@ -2,7 +2,7 @@
   width: 300px;
   flex-grow: 1;
   padding: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px rgb(189, 123, 0);;
 }
 
 .basket {
@@ -67,7 +67,7 @@
   width: 65%;
   background-color: rgb(240, 240, 240);
   border-radius: 20px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 .basket-buy-container {
