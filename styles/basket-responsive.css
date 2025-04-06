@@ -1,0 +1,93 @@
+.responsive-basket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  padding: 8px;
+  background-color: orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#responsive-basket {
+  display: none;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: auto;
+  transition: 0.5s;
+  color: grey;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay .closebtn {
+  cursor: pointer;
+  position: absolute;
+  top: -12px;
+  right: 24px;
+  font-size: 60px;
+}
+
+.responsive-basket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+}
+
+.responsive-name-price-amount-position {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.responsive-number-buttons-position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.responsive-remove-quantity-add-position {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.respnsive-total-price-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 16px;
+  padding-right: 16px;
+  gap: 16px;
+}
+
+.responsive-trash {
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: orange;
+  width: 24px;
+}

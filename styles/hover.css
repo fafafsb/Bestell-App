@@ -1,0 +1,44 @@
+@media (hover: hover) {
+  .link-header:hover {
+    color: orange;
+    transition: 0.3s;
+    background-color: black;
+    padding: 4px;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+
+  .dishes-container:hover {
+    background-color: rgb(235, 235, 235);
+    transition: 0.3s;
+  }
+
+  .add-button img:hover {
+    background-color: rgb(255, 221, 159);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .plus-minus:hover {
+    background-color: wheat;
+    transition: 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .trash:hover {
+    transition: 0.3s;
+    filter: drop-shadow(0px 0px 4px orange);
+    cursor: pointer;
+  }
+
+  .basket-buy-position:hover {
+    background-color: orange;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .link-footer:hover {
+    text-decoration: underline;
+  }
+}

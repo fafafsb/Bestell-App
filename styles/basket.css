@@ -1,15 +1,76 @@
+.basket-container {
+  width: 300px;
+  flex-grow: 1;
+  padding: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
 .basket {
-    position: fixed;
-    right: 0;
-    top: 88px;
-    display: flex;
-    flex-direction: column;
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    align-content: center;
-    width: 220px;
-    height: 100vh;
-    align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 16px;
+}
+
+#basket-container-render {
+  direction: rtl;
+  text-align: left;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding-left: 8px;
+  padding-right: 0;
+}
+
+#basket-container-render > * {
+  direction: ltr;
+}
+
+.basket-empty-text {
+  text-align: center;
+}
+
+.border-basket {
+  margin-bottom: 16px;
+  background-color: gray;
+  height: 1px;
+}
+
+.basket-headline {
+  text-align: center;
+}
+
+.name-price-amount-position {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 24px;
+}
+
+.number-buttons-position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.remove-quantity-add-position {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.basket-buy-position {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  width: 65%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.basket-buy-container {
+  display: flex;
+  justify-content: center;
 }

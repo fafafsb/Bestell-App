@@ -1,45 +1,99 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bestell App</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bestellapp</title>
 
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/fonts.css" />
-    <link rel="stylesheet" href="./styles/basket.css" />
+    <link rel="shortcut icon" href="./assets/icons/favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/hover.css" />
     <link rel="stylesheet" href="./styles/assets.css" />
+    <link rel="stylesheet" href="./styles/basket.css" />
+    <link rel="stylesheet" href="./styles/standard.css" />
+    <link rel="stylesheet" href="./styles/basket-responsive.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/buy-cart.css" />
 
-    <script src="./scripts/db.js"></script>
-    <script src="./scripts/template.js"></script>
-    <script src="./scripts/script.js"></script>
-</head>
-<body>
+    <script src="./script/db.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/template.js"></script>
+  </head>
+  <body onload="init()">
     <header>
-        <a href="index.html"><img src="./assets/icons/logo/Bestell App- Logo.svg" alt="BestellAppLogo" /></a>
+      <img src="./assets/img/Logo.png" alt="" />
+      <!-- <img src="./assets/icons/hamburger-menu-svgrepo-com.svg" alt="" /> -->
     </header>
+    <main class="">
+      <section class="content">
+        <div>
+          <img class="image-headline" src="./assets/img/restaurant.png" alt="" />
+        </div>
+        <div class="logo-position">
+          <img src="./assets/icons/logo.png" alt="" />
+        </div>
+        <div class="pd-16">
+          <div>
+            <h1>Heimatküche</h1>
+            <p class="rating-position"><img src="./assets/img/star.png" alt="" /> Bewertung (4,3 von 5 Sternen)</p>
+            <br />
+            <p class="delivery-costs">Lieferkosten: 4,00 CHF</p>
+          </div>
+        </div>
 
-    <section class="main">
-    <img class="aot-img" src="./assets/img/pizza.jpg" alt="pizza">
-    <h1>Paradise Noodles</h1>
-    <p>Bewertung (4.2 von 5 Sternen)</p>
-    <nav> 
-        <a href="">Hauptgerichte</a>
-        <a href="">Getränke</a>
-    </nav>
+        <nav class="nav-bar">
+          <a class="link-header" href="#headline-./assets/img/burger.jpg">Burger</a>
+          <a class="link-header" href="#headline-./assets/img/pizza.jpg">Pizza</a>
+          <a class="link-header" href="#headline-./assets/img/getänke.png">Getränke</a>
+          <a class="link-header" href="#headline-./assets/img/dessert.jpg">Desserts</a>
+        </nav>
 
-        <section class="basket">
-            <div>
-                <h1>Warenkorb</h1>
-                    <div class="basket-container">
-                        <div class="basket-item" id="basket-item">
-                            </div>
-                        </div>
+        <div id="content" class="pd-16"></div>
+      </section>
 
-                    </div>
-            </div>       
+      <section class="basket-container">
+        <div class="basket">
+          <h2 class="basket-headline">Warenkorb</h2>
+          <br />
+          <div id="basket-container-render"></div>
+          <div class="price"></div>
+        </div>
+      </section>
 
-        </section>
-    </section>
-</body>
+      <div id="overlay" onclick="offCart()">
+        <div class="cart">
+          <div class="text-in-cart">
+            <h1>Vielen Dank!</h1>
+            <br />
+            <h2>Ihre Bestellung ist bei uns eingegangen und wird zu Ihrer angegebenen Adresse geschickt.</h2>
+            <br />
+            <h3>Lassen Sie es sich schmecken!</h3>
+          </div>
+        </div>
+      </div>
+
+      <div id="responsive-basket" onclick="openCartResponsive()" class="responsive-basket">
+        <img src="./assets/img/shopping-cart.png" alt="" />
+      </div>
+
+      <div id="myNav" class="overlay">
+        <div class="basket">
+          <h2 class="basket-headline">Warenkorb</h2>
+          <br />
+          <div id="basket-render-container"></div>
+          <div class="price"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-position">
+        <a class="link-footer" href="#">Impressum</a>
+        <a class="link-footer" href="#">Kontakt</a>
+        <a class="link-footer" href="#">Social Media </a>
+        <a class="link-footer" href="#">AGB</a>
+        <a class="link-footer" href="#">Datenschutzerklärung</a>
+      </div>
+
+    </footer>
+  </body>
 </html>

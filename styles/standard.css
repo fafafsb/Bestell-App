@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Noto Sans" serif;
+  src: url("../assets/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype"), url("../assets/fonts/NotoSans-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+* {
+  font-family: "Noto Sans";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  scroll-behavior: smooth;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  background-color: white;
+}
+
+main {
+  ::-webkit-scrollbar {
+    display: block;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: orange;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.pd-top-bottom-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.pd-16 {
+  padding: 16px;
+}
+
+.border-shadow {
+  border-radius: 16px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+
+.d-none {
+  display: none;
+}
+
+.number {
+  color: rgb(160, 91, 0);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
