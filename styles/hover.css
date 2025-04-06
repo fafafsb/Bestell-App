@@ -2,8 +2,6 @@
   .link-header:hover {
     color: orange;
     transition: 0.3s;
-    background-color: black;
-    padding: 4px;
     border-radius: 24px;
     cursor: pointer;
   }

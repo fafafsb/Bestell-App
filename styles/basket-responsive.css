@@ -3,11 +3,11 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 8px;
-  right: 8px;
-  padding: 8px;
+  bottom: 12px;
+  right: 12px;
+  padding: 12px;
   background-color: orange;
-  border-radius: 20px;
+  border-radius: 28px;
   cursor: pointer;
 }
 
@@ -24,8 +24,8 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-y: auto;
-  transition: 0.5s;
-  color: grey;
+  transition: 0.4s;
+  color: rgb(255, 230, 177);
 }
 
 .overlay-content {

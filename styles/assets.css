@@ -28,9 +28,14 @@ p img {
   width: 24px;
 }
 
-.plus-minus,
 .trash {
   width: 20px;
+}
+
+.plus-minus {
+  width: 20px;
+  border-radius: 10px;
+  background-color: orange;
 }
 
 .responsive-basket img {

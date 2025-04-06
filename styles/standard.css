@@ -1,10 +1,11 @@
 @font-face {
-  font-family: "Noto Sans" serif;
-  src: url("../assets/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype"), url("../assets/fonts/NotoSans-VariableFont_wdth\,wght.ttf") format("truetype");
+  font-family: "Chakra Petch", sans-serif;
+  src: url("../assets/fonts/ChakraPetch-VariableFont_wdth\,wght.ttf") format("truetype");
+  src: url("../assets/fonts/ChakraPetch-Italic-VariableFont_wdth\,wght.ttf") format("truetype")
 }
 
 * {
-  font-family: "Noto Sans";
+  font-family: "Chakra Petch";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
