@@ -4,7 +4,7 @@
     padding: 30px;
     background-color: #fff;
     border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0px 8px orange;
   }
 
   h1 {
@@ -37,7 +37,7 @@
   textarea {
     margin-top: 5px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid orange;
     border-radius: 8px;
     font-size: 16px;
     resize: vertical;
@@ -51,17 +51,16 @@
     margin-top: 20px;
     margin-bottom: 32px;
     padding: 12px;
-    background-color: #28a745;
-    color: white;
+    background-color: orange;
+    color: rgb(37, 37, 37);
     border: none;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
   }
 
   button:hover {
-    background-color: #218838;
+    background-color: rgb(250, 194, 89);
   }
 
   @media (max-width: 600px) {
